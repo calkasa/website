@@ -1,0 +1,401 @@
+/* Styling for portrait */
+
+.body {
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  align-items: center;
+}
+
+.animation {
+  width: 26%;
+  margin-bottom: -21%;
+  margin-left: -0.5%;
+  animation-name: homepage;
+  animation-duration: 8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.col1 {
+  width: 70%;
+  height: 100%;
+}
+
+.col2 {
+  width: 30%;
+  height: 100%;
+}
+
+.content-home {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  align-items: center;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  justify-content: center;
+}
+
+.copyright {
+  position: relative;
+  bottom: 2%;
+  font-size: 0.9em;
+  text-align: right;
+  margin: 0;
+}
+
+.description-pink {
+  color: #F16382;
+  margin: 0;
+}
+
+.description-blue {
+  color: #8CB0DD;
+  margin: 0;
+  font-size: 5.9vw;
+}
+
+#description-1 {
+  font-size: 4.5vw;
+}
+
+#description-2 {
+  font-size: 3.8vw;
+}
+
+#description-3 {
+  font-size: 4.3vw;
+}
+
+.description-wrapper {
+  width: 90%;
+  height: auto;
+  font-weight: 600;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.graphic-home {
+  width: 100%;
+  height: auto;
+}
+
+.graphic-wrapper {
+  width: 80%;
+}
+
+.img-border-1 {
+  width: 10%;
+  height: 10%;
+  border: black 1px solid;
+}
+
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes homepage {
+  20% {margin-bottom: -39%; margin-left: -0.5%;}
+  40% {margin-bottom: -39%; margin-left: 23%;}
+  60% {margin-bottom: -57%; margin-left: 23%;}
+  80% {margin-bottom: -57%; margin-left: 69%;}
+  100% {margin-bottom: -73%; margin-left: 69%;}
+}
+
+@keyframes nav-transition {
+  0% {margin-left: -41%;}
+  100% {margin-left: 0;}
+}
+
+.menu {
+  width: 7%;
+  left: 8%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.menu-2 {
+  width: 100%;
+}
+
+.menu-wrapper {
+  width: 22%;
+}
+
+.nav-link-wrapper {
+  padding: 20% 10%;
+  height: 5%;
+  width: 90%;
+  font-size: 1.5em;
+}
+
+#navbar-resp {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-left: -41%;
+  transition: margin-left 0.6s;
+  font-weight: 600;
+}
+
+.navbar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.nav_links {
+  display: none;
+}
+
+.nav-link-resp {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-wrapper-menu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 5% 10%;
+  width: 80%;
+  height: 8%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo-wrapper {
+  width: 14%;
+  margin: auto;
+}
+
+.text {
+  height: 47%;
+  width: 80%;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.text-american {
+  margin: -6% 0 0 0;
+  font-size: 7.3vw;
+}
+
+.text-association {
+  margin: 0 -6% 0 0;
+  font-size: 6.1vw;
+}
+
+.text-korean {
+  margin: 0;
+  font-size: 9.5vw;
+}
+
+.text-student {
+  margin: 0;
+  font-size: 9vw;
+}
+
+.text1-wrapper {
+  width: 100%;
+  height: auto;
+  font-weight: 700;
+}
+
+.text2-wrapper {
+  font-weight: 700;
+  width: 100%;
+  height: auto;
+  writing-mode: vertical-rl;
+  text-align: left;
+}
+
+/* Styling for landscape */
+@media only screen and (orientation: landscape) {
+
+  .animation {
+    width: 26%;
+    margin-bottom: -19%;
+    margin-left: -0.5%;
+    animation-name: homepage;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+
+  .body {
+    padding: 2%;
+  }
+
+  .buffer {
+    width: 100%;
+    height: 30%;
+  }
+
+  .col1 {
+    width: 65%;
+  }
+
+  .col2 {
+    width: 35%;
+  }
+
+  .content-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 45%;
+    margin: 3% auto;
+    padding: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    animation-name: fade-in;
+    animation-duration: 2s;
+  }
+
+  .copyright {
+  }
+
+  .description-blue {
+    font-size: 3.3vw;
+  }
+
+  #description-1 {
+    font-size: 2.5vw;
+  }
+
+  #description-2 {
+    font-size: 2.1vw;
+  }
+
+  #description-3 {
+    font-size: 2.4vw;
+  }
+
+  .description-wrapper {
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+    margin-top: 7%;
+  }
+
+  .dots {
+    width: 100%;
+  }
+
+  .dots-wrapper-1 {
+    width: 92%;
+    margin: 1% auto 4% auto;
+  }
+
+  .graphic-home {
+    width: 100%;
+    height: auto;
+  }
+
+  .graphic-wrapper {
+    width: 52%;
+    margin: -2% 0 0 0;
+  }
+
+  .img-border-1 {
+    width: 10%;
+    height: 10%;
+    border: black 1px solid;
+  }
+
+  @keyframes homepage {
+    20% {margin-bottom: -37%; margin-left: -0.5%;}
+    40% {margin-bottom: -37%; margin-left: 23%;}
+    60% {margin-bottom: -55%; margin-left: 23%;}
+    80% {margin-bottom: -55%; margin-left: 69%;}
+    100% {margin-bottom: -71%; margin-left: 69%;}
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .logo-wrapper {
+    width: 8%;
+    margin: 0;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 80%;
+  }
+
+  .nav_links {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+
+  .nav_links:hover {
+    color: gray;
+  }
+
+  #no-scroll {
+    overflow-y: hidden;
+  }
+
+  .text {
+    height: 90%;
+    width: 47%;
+  }
+
+  .text-american {
+    font-size: 4vw;
+  }
+
+  .text-association {
+    font-size: 4vw;
+  }
+
+  .text-korean {
+    font-size: 5.2vw;
+  }
+
+  .text-student {
+    font-size: 5.8vw;
+  }
+
+  .text1-wrapper {
+
+  }
+
+  .text2-wrapper {
+
+  }
+
+}

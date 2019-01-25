@@ -1,0 +1,18 @@
+/*Acherus Grotesque Regular*/
+@font-face {
+    font-family: 'acherusgrotesque-regular';
+    src: url('fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+         url('fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Acherus Grotesque Italic*/
+@font-face {
+  font-family: 'acherusgrotesque-regularitalic';
+  src: url('fonts/acherusgrotesque-regularitalic-webfont.woff2') format('woff2'),
+       url('fonts/acherusgrotesque-regularitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

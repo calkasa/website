@@ -1,0 +1,82 @@
+.bold {
+  font-weight: 600;
+}
+
+.border {
+  height: 75%;
+  width: 1px;
+  border-right: black 1px solid;
+  margin: 0 5%;
+}
+
+#copyright-no-scroll {
+  position: absolute;
+  right: 2%;
+}
+
+#graphic-contact-1 {
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+}
+
+#graphic-contact-2 {
+  position: absolute;
+  bottom: 0;
+  width: 93%;
+  visibility: hidden;
+}
+
+.info {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  margin: 20% auto;
+}
+
+.left {
+  text-align: right;
+  width: 40%;
+}
+
+#logo {
+  width: 15%;
+  margin-bottom: -1%;
+}
+
+.right {
+  text-align: left;
+  width: 40%;
+}
+
+@media only screen and (orientation: landscape) {
+
+  .border {
+    height: 60%;
+  }
+
+  #graphic-contact-1 {
+    width: 12%;
+  }
+
+  .info {
+    height: 75%;
+    margin: 5% auto;
+  }
+
+  .left {
+    width: 25%;
+  }
+
+  #logo {
+    width: 7%;
+  }
+
+  .right {
+    width: 25%;
+  }
+}

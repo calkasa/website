@@ -1,0 +1,50 @@
+.bird {
+  width: 100%;
+}
+
+.bird-wrapper-1 {
+  width: 13%;
+  left: 37%;
+  bottom: 0%;
+  position: absolute;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+}
+
+.bird-wrapper-2 {
+  width: 13%;
+  right: 37%;
+  bottom: 0%;
+  position: absolute;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+}
+
+.form {
+  height: 80%;
+  width: 100%;
+  margin: 4% auto;
+  text-align: center;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+}
+
+@media only screen and (orientation: landscape) {
+
+  .bird-wrapper-1 {
+    left: 2%;
+    bottom: -1%;
+  }
+
+  .bird-wrapper-2 {
+    right: 2%;
+    bottom: -1%;
+  }
+
+  .form {
+    height: 73%;
+    width: 70%;
+    padding: 3% 3% 2% 3%;
+    margin: auto;
+  }
+}

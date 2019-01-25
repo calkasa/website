@@ -1,0 +1,13 @@
+.slideshow-body {
+  width: 45%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 0;
+}
+
+.title {
+  margin-top: 5%;
+  text-align: center;
+  font-style: italic;
+}

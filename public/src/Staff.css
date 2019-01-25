@@ -1,0 +1,59 @@
+.staff-img {
+  width: 100%;
+}
+
+.staff-body {
+  width: 45%;
+  height: 45%;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.staff-name {
+  margin: 5% 0 2% 0;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.staff-title {
+  margin: 0;
+}
+
+.staff-year {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.staff-phrase {
+  margin: 5%;
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 0;
+  display: none;
+}
+
+@media only screen and (orientation: landscape) {
+
+  .staff-body {
+    width: 23%;
+    height: 60%;
+  }
+
+  .staff-name {
+    font-size: 1em;
+  }
+
+  .staff-title {
+    font-size: 1em;
+  }
+
+  .staff-year {
+    font-size: 0.9em;
+  }
+
+  .staff-phrase {
+    font-size: 0.9em;
+  }
+}
