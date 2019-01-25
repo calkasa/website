@@ -2,8 +2,9 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.kasa.github.io/",
+  "homepage": "https://www.calkasa.github.io/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
